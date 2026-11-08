@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UHP Atlas Companion Privacy Policy</title>
+<style>
+  body { margin: 0; background: #fff; color: #1a1a1a; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid #ddd; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; margin: 0 0 10px; }
+  a { color: #0b5cad; word-break: break-word; }
+  .meta { color: #555; margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<main>
+<h1>UHP Atlas Companion Privacy Policy</h1>
+<p class="meta">Effective date: November 6, 2026</p>
+
+<p>UHP Atlas Companion ("the app") is an iPhone app for staff of University of Health and Performance ("UHP", "we", "us"), which runs the app and controls the data it collects. This policy covers the app and the Atlas service behind it. The uhp.com website has its own policy at <a href="https://uhp.com/privacy-policy/">https://uhp.com/privacy-policy/</a>.</p>
+<p>University of Health and Performance, 702 SE 5th St, Unit 2, Bentonville, AR 72712.</p>
+
+<h2>Who the app is for</h2>
+<p>The app is for UHP staff only. UHP creates each account in Compass, our staff operations platform. You cannot create an account in the app. Signing in checks that your Compass account is allowed to use Atlas.</p>
+
+<h2>What the app collects</h2>
+<p><strong>Account details.</strong> Your name, your UHP email address and your Compass account ID. If you sign in with Google, Google confirms your uhp.com identity to us. If you sign in with a password, it goes to our sign-in service and is not kept by the app.</p>
+<p><strong>What you ask Atlas.</strong> Your messages, the answers Atlas gives, and the drafts, tasks, work orders and other changes Atlas prepares for you to confirm.</p>
+<p><strong>Dictation.</strong> If you tap the microphone, the app records up to 3 minutes of audio and sends it to our server, which sends it to OpenAI to turn into text. The audio is processed in memory and is not stored by us. The text goes into your message box. When you send it, it is stored like any other message.</p>
+<p><strong>Photos and files you attach.</strong> If you attach a photo or a document, the app sends it with your message so Atlas can read it. Photos are resized and re-encoded first. The upload is a temporary copy that is set to expire after 30 minutes. What you and Atlas say about it stays in your chat history.</p>
+<p><strong>Files.</strong> Documents, spreadsheets, PDFs and images that Atlas creates for you, or that you save in Files, are stored in your account.</p>
+<p><strong>Content from services you connect.</strong> If you connect Google, Atlas can read and act on your Gmail, Google Calendar, Google Drive and Google Sheets, only for the permissions you grant. See "Google connection" below. Atlas also keeps short heads-ups in your Feed that it derives from your email, such as the sender, subject and a short summary.</p>
+<p><strong>Student records.</strong> If your Compass role allows it, Atlas can look up student information on your behalf. See "Student records" below.</p>
+<p><strong>Notification token.</strong> If you allow notifications, the app sends your Apple push notification token to our server so we can deliver heads-ups. Email heads-ups on the lock screen show the sender and subject only.</p>
+<p><strong>Service logs.</strong> Our server records technical events for requests the app makes, such as the time, the route, whether it succeeded and how long it took. These events are tied to your account ID. For dictation, the log holds counts and codes, never the audio or the text.</p>
+<p>The app does not collect your location, contacts, health information about you or financial data. It does not read your photo library except for the photos you pick.</p>
+
+<h2>How we use it</h2>
+<p>We use this information to run the app: to sign you in, show your Feed, answer your questions, prepare drafts and files, deliver notifications, keep Atlas secure and reliable, and control cost. We do not sell your information and we do not use it for advertising.</p>
+
+<h2>AI providers</h2>
+<p>Atlas uses outside AI providers to understand your requests and write answers. The content needed for a request is sent to them, which can include your message, an attached file, and information Atlas read from your connected services or from Compass.</p>
+<ul>
+<li><strong>Anthropic</strong> is the default provider for Atlas chat.</li>
+<li><strong>OpenAI</strong> transcribes dictation and may also be used for other Atlas tasks, such as documents and images.</li>
+<li><strong>Google (Gemini)</strong> may be used for some document and research tasks.</li>
+</ul>
+<p>Each provider handles data under its own terms. As of the effective date, Anthropic says it deletes API inputs and outputs within 30 days by default, with exceptions for safety and legal reasons (<a href="https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-data">Anthropic</a>). OpenAI says it does not train its models on API data, and keeps abuse-monitoring logs for up to 30 days, except that its transcription endpoint keeps none (<a href="https://developers.openai.com/api/docs/guides/your-data">OpenAI</a>). Google's terms are at <a href="https://ai.google.dev/gemini-api/docs/logs-policy">Google</a>.</p>
+
+<h2>Google connection</h2>
+<p>Connecting Google is optional. UHP's Google sign-in is limited to uhp.com accounts. Atlas asks for a base set of permissions when you connect, and for others when a request needs them:</p>
+<ul>
+<li>Gmail: read your email (to find heads-ups and help with replies) and compose drafts and replies.</li>
+<li>Google Calendar: read your agenda, and change an event only to decline a meeting you confirm.</li>
+<li>Google Drive: read files, and create or open only the files Atlas works with.</li>
+<li>Google Sheets: read spreadsheets you choose to watch, and write to a linked spreadsheet for sync.</li>
+</ul>
+<p>Atlas does not send an email or change a calendar event until you confirm. A spreadsheet you link for sync keeps syncing automatically until you unlink it. Changes Atlas makes can be undone by the person who asked for them. Your Google access tokens are stored encrypted. You can disconnect Google in Settings, which revokes the grant with Google and deletes the stored connection. You can also revoke access in your Google account.</p>
+
+<h2>Student records</h2>
+<p>UHP staff may be allowed to see student information in Compass. Atlas can read it for you only when your Compass role already allows it. Atlas applies the same role and program limits as Compass, checks them on every request, and records each student record access in an audit log. It returns only the fields your role allows. Student records can include health and other sensitive information. In this app, roster lookups return names and cohort details only. Student information you ask about is sent to the AI provider that answers your request, like any other content.</p>
+
+<h2>Who we share information with</h2>
+<ul>
+<li><strong>Our service providers:</strong> the AI providers above, Supabase (database and sign-in), Railway (hosting), and Apple (push notifications).</li>
+<li><strong>Google,</strong> when you connect your Google account, because Atlas reads from and writes to it at your direction.</li>
+<li><strong>People you choose.</strong> When you confirm a Team Chat message or an email, it goes to the person you named.</li>
+<li><strong>Legal and safety.</strong> We may disclose information when the law requires it.</li>
+</ul>
+<p>We do not share information with advertisers or data brokers. The app has no third-party advertising, analytics or tracking tools. We use our own service logs to monitor reliability and usage. The app does not track you across other companies' apps or websites.</p>
+
+<h2>How long we keep information</h2>
+<ul>
+<li><strong>Dictation audio:</strong> not stored.</li>
+<li><strong>Attached photos and documents (temporary copies):</strong> set to expire after 30 minutes and removed by a scheduled cleanup.</li>
+<li><strong>Files:</strong> kept until deleted. Deleted files stay in Recently Deleted, where you can restore them, until UHP removes them on request.</li>
+<li><strong>Chat history, drafts and activity records:</strong> kept until UHP deletes them on request.</li>
+<li><strong>Diagnostic traces of Atlas answers:</strong> set to expire after 30 days by default and removed by a scheduled cleanup.</li>
+<li><strong>Service log events:</strong> up to about 13 months.</li>
+<li><strong>Notification token:</strong> when you sign out, we ask our server to remove it. It is also disabled once Apple reports it invalid.</li>
+<li><strong>Google connection:</strong> removed when you disconnect Google.</li>
+<li><strong>Audit records of student record access:</strong> kept as UHP requires for compliance.</li>
+</ul>
+
+<h2>Your choices and deleting your data</h2>
+<ul>
+<li>Sign out in Settings. This removes your session from the phone and asks our server to stop notifications to it.</li>
+<li>Disconnect Google in Settings.</li>
+<li>Turn notifications off in iOS Settings.</li>
+<li>Delete or restore your Files in the app.</li>
+</ul>
+<p>Because UHP creates your account, UHP also ends it. When you leave UHP, your Compass account is disabled. To have your Atlas data deleted, ask UHP IT through <a href="https://uhp.com/contact-us/">https://uhp.com/contact-us/</a>, by email at [CONTACT EMAIL] or by phone at +1 (479) 381-7162. Tell us you are asking about the UHP Atlas Companion app. We will delete or de-identify your data within a reasonable time after a confirmed request, except copies in backups, which age out on their own schedule, and records we must keep, such as the student record audit log.</p>
+
+<h2>Security</h2>
+<p>Connections between the app and our servers use encryption. The app keeps your sign-in session in the iOS Keychain. Google access tokens are encrypted on our servers. Student record access is limited by role and logged. No system is perfectly secure.</p>
+
+<h2>Children</h2>
+<p>The app is for UHP staff and is not for children.</p>
+
+<h2>Changes</h2>
+<p>If we change this policy, we will post the new version at this address with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>University of Health and Performance, 702 SE 5th St, Unit 2, Bentonville, AR 72712.<br>
+Email: [CONTACT EMAIL]<br>
+Phone: +1 (479) 381-7162<br>
+<a href="https://uhp.com/contact-us/">https://uhp.com/contact-us/</a></p>
+</main>
+</body>
+</html>
